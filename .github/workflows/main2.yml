@@ -1,7 +1,0 @@
-name: Troisieme Workflow
-on: [push]
-jobs: 
- checkout3: 
-  runs-on: ubuntu-latest
-  steps:
-   - run: ls
