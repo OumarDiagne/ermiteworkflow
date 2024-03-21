@@ -1,7 +1,7 @@
-name: Mon premier worflow
+name: Mon deuxieme worflow
 on: [push]
 jobs: 
- checkout: 
+ checkout1: 
   runs-on: ubuntu-latest
   steps:
-   - run: echo "Hello, world !"
+   - run: ls
